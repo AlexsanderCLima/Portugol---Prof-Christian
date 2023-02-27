@@ -4,18 +4,32 @@ programa {
   inteiro idade= 17
   cadeia cidade="Rio Negro"
   cadeia estado="Parana"
+  caracter sexo
 
   funcao inicio() 
   {
 
-  escreva ("Meu nome é..",nome,"\n"),
+  escreva("Informe seu nome \n")
+  leia(nome)
+  limpa ()
 
-  escreva ("Tenho ",idade," Tantos Anos\n")
+  escreva("Qual sua Idade \n")
+  leia(idade)
+  limpa()
 
-  escreva("Atualmente resido na ",cidade,"\n")
+  escreva("Onde voce mora?")
+  leia(cidade)
+  limpa ()
 
-  escreva("Que se localiza no estado do ",estado,")
+  escreva("Aonde se Localiza?")
+  leia(estado)
+  limpa ()
+
+  escreva("Informe seu Sexo [M/F]:\n")
+  leia (sexo)
+  limpa()
+
+  escreva ("Meu nome é ", nome, " tenho " , idade, " anos de idade, do sexo ", sexo, " e atualmente resido na cidade de ",cidade,".")
 
   }
 }
-
