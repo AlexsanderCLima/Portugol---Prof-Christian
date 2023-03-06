@@ -18,18 +18,18 @@ programa {
       resultado = n1 + n2
       escreva("0 resultado dos valores ", n1, "+", n2, "=",resultado":\n")
 
-    //Executando a subtra√ß√£o
+    //Executando a subtraÁ„o
 
 
       resultado = n1 - n2
       escreva("\nO resultado dos valores ", n1, "-", n2, "=",resultado)
 
-    //Executando A Multiplica√ß√£o
+    //Executando A MultiplicaÁ„o
 
       resultado = n1 * n2
       escreva("\nO resultado dos valores ", n1, "*", n2, "=",resultado)
 
-    //Executando A Divis√£o
+    //Executando A Divis„o
 
       resultado2= n1 / n2
       escreva("\nO resultado dos valores ", n1, "/", n2, "=",resultado2)
