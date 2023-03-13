@@ -40,12 +40,25 @@ programa {
 
          //Retorna para o menu Inicial
          inicio()
+         pare
 
       }
 
       caso"2":
       {
-       
+
+        limpa()
+           limpa()
+           escreva(".ᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗ.\n")
+           escreva(".|            CLIENTE CADASTROS          |.\n")
+           escreva(".ᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖ.\n\n")
+
+           escreva("N 01 -", nome_cliente, "- idade: ", idade, "\n")
+
+          escreva(".	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ	ᚓ\n")
+          Util.aguarde(5000) // Aguarda 05 Segundos
+          inicio()
+       pare
 
       }
 
