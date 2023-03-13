@@ -1,9 +1,14 @@
 programa {
-  funcao inicio(){
+
+    inclua biblioteca Util
 
     cadeia opcao, nome_cliente
     inteiro idade
 
+
+  funcao inicio(){
+
+    limpa()
     escreva(".ᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗᗗ.\n")
     escreva(".|            SISTEMA DE CADASTRO           |.\n")
     escreva(".ᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖᗖ.\n\n")
@@ -25,8 +30,22 @@ programa {
 
 
          limpa()
-         escreva("Qual a idade do(a) cliente ", nome_cliente, ":")
+         //Exibe mensagem do usuario cadastrado com sucesso
+         escreva("Qual a idade do(a) cliente ", nome_cliente, ":\n")
          leia(idade)
+
+         limpa()
+         escreva("Usuário cadastrado com sucesso!")
+         Util.aguarde(3000)
+
+         //Retorna para o menu Inicial
+         inicio()
+
+      }
+
+      caso"2":
+      {
+       
 
       }
 
